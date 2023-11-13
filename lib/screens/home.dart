@@ -9,7 +9,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  static const platform = MethodChannel('samples.sachin96boy.dev/battery');
+  static const platform = MethodChannel("samples.sachin96boy.dev/battery");
   String _batteryLevel = 'unknown Battery Level';
 
   Future<void> _getBatteryLevel() async {
